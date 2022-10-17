@@ -102,8 +102,7 @@ namespace Menú1_Readkey
                     }
                     break;
                 case 3:
-                    
-                    Console.WriteLine("3: “Presenta Fecha”");
+                    Console.WriteLine("Presenta Fecha");
                     Console.Write("Introduzca un año: ");
                     int anyo = Convert.ToInt32(Console.ReadLine());
                     Console.Clear();
@@ -114,16 +113,22 @@ namespace Menú1_Readkey
                     else
                     {
                         Console.Write("Introduzca un dia: ");
-                        int dia = Convert.ToInt32(Console.ReadLine());
+                        int dia1 = Convert.ToInt32(Console.ReadLine());
                         Console.Clear();
+                        //CONTROL DE DIAS
 
+                        //GENERAL          //MESES DE 30 DIAS                           //FEBRERO
 
-                        if ((dia < 1 || dia > 31) || (dia > 30 && (mes == 4 || mes == 6 || mes == 9 || mes == 11)) || (dia > 28 && mes == 2)) Console.Write("Dia fuera de Rango");
-
-
+                        if ((dia1 < 1 || dia1 > 31) || (dia1 > 30 && (mes == 4 || mes == 6 || mes == 9 || mes == 11)) || (dia1 > 28 && mes == 2)) Console.Write("Dia fuera de Rango");
+                        //OTRA FORMA DE HACERLO CON EL ELSE IF QUE SE SUSTITUYE POR ||
+                        //SE PUEDE PERSONALIZAR EL MENSAJE PARA CADA ERROR.
+                        /*if ((dia<1||dia > 31)Console.Write("Dia fuera de Rango");
+                        else if (dia>30&&(mes==4||mes==6||mes==9||mes==11))Console.Write("Este mes solo tiene 30 dias");
+                        else if (dia>28&&mes==2)Console.Write("Febrero solo tiene 28 dias");
+                        */
                         else
                         {
-                            Console.Write("{0} de ", dia);
+                            Console.Write("{0} de ", dia1);
                             switch (mes)
                             {
                                 case 1:
@@ -168,10 +173,11 @@ namespace Menú1_Readkey
                             //Una inicializacion siempre debe hacerse fuera de cualquier condicional por ejemplo en la declaración.
                         }
                     }
-                        break;
+
+
+                    break;
                     
-                case 4:
-                    Console.WriteLine("4: “Presenta Día Semana”");
+                case 4:Console.WriteLine("Presenta Día Semana");
                     Console.WriteLine("Introduce un dia del 0 al 6 siendo 0 el domingo y 6 el sabado: ");
                     int dia = Convert.ToInt32(Console.ReadLine());
                     if (dia < 0 || dia > 6) Console.WriteLine("ERROR:El dia esta fuera de rango.");
@@ -181,13 +187,13 @@ namespace Menú1_Readkey
                         int numDias = Convert.ToInt32(Console.ReadLine());
                         if (numDias < 0) Console.WriteLine("Debe introducir un numero mayor que 0.");
 
-                        int resto = (dia + numDias) % 7;
+
                         //El else if significa que si es esa opcion que ejecute esa y ya no lea mas el if if if if hace que lea todas las opciones.
                         else
                         {
+                            int resto1 = (dia + numDias) % 7;
 
-                            int resto = (dia + numDias) % 7;
-                            switch (resto)
+                            switch (resto1)
                             {
                                 case 0:
                                     Console.WriteLine("Dentro de {0} dia/s será Domingo", numDias);
@@ -213,7 +219,8 @@ namespace Menú1_Readkey
                             }
                         }
                     }
-                        break;
+
+                    break;
                 default:
                     Console.WriteLine("\t\t*-ERROR:HA ELEGIDO UNA OPCIÓN NO VÁLIDA-*");
                     break;
