@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_g_CapturaEntero2", "12_g_CapturaEntero2\12_g_CapturaEntero2.csproj", "{734BE1DB-3B94-4437-A24D-CF23F96E7470}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{734BE1DB-3B94-4437-A24D-CF23F96E7470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{734BE1DB-3B94-4437-A24D-CF23F96E7470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{734BE1DB-3B94-4437-A24D-CF23F96E7470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{734BE1DB-3B94-4437-A24D-CF23F96E7470}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8531C1A8-742D-4132-9C26-3923CEC5B4C6}
+	EndGlobalSection
+EndGlobal
