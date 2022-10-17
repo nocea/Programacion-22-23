@@ -1,4 +1,4 @@
-﻿//Alumno:
+﻿//Alumno:Nocea Cabrera,Mario
 /*P13e_Profesiones
  Tenemos una empresa que tiene 5 tipos de empleados. En la tabla siguiente se muestra
  cada tipo su sueldo por hora y el numero de horas que trabajan diariamente en la empresa
