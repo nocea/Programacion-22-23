@@ -30,8 +30,7 @@ namespace Menú1_Readkey
             opcion = Console.ReadKey().KeyChar - '0';//Para capturar un caracter y no tener que pulsar intro
 
             Console.Clear();
-            if (opcion > 0 || opcion <= 4)
-                Console.Write("\t\tHa elegido la opción nº ");
+            
 
             switch (opcion)
             {
@@ -102,7 +101,7 @@ namespace Menú1_Readkey
                     }
                     break;
                 case 3:
-                    Console.WriteLine("Presenta Fecha");
+                    Console.WriteLine("3: Presenta Fecha");
                     Console.Write("Introduzca un año: ");
                     int anyo = Convert.ToInt32(Console.ReadLine());
                     Console.Clear();
@@ -113,13 +112,13 @@ namespace Menú1_Readkey
                     else
                     {
                         Console.Write("Introduzca un dia: ");
-                        int dia1 = Convert.ToInt32(Console.ReadLine());
+                        int diaFecha = Convert.ToInt32(Console.ReadLine());
                         Console.Clear();
                         //CONTROL DE DIAS
 
                         //GENERAL          //MESES DE 30 DIAS                           //FEBRERO
 
-                        if ((dia1 < 1 || dia1 > 31) || (dia1 > 30 && (mes == 4 || mes == 6 || mes == 9 || mes == 11)) || (dia1 > 28 && mes == 2)) Console.Write("Dia fuera de Rango");
+                        if ((diaFecha < 1 || diaFecha > 31) || (diaFecha > 30 && (mes == 4 || mes == 6 || mes == 9 || mes == 11)) || (diaFecha > 28 && mes == 2)) Console.Write("Dia fuera de Rango");
                         //OTRA FORMA DE HACERLO CON EL ELSE IF QUE SE SUSTITUYE POR ||
                         //SE PUEDE PERSONALIZAR EL MENSAJE PARA CADA ERROR.
                         /*if ((dia<1||dia > 31)Console.Write("Dia fuera de Rango");
@@ -128,7 +127,7 @@ namespace Menú1_Readkey
                         */
                         else
                         {
-                            Console.Write("{0} de ", dia1);
+                            Console.Write("{0} de ", diaFecha);
                             switch (mes)
                             {
                                 case 1:
@@ -191,9 +190,9 @@ namespace Menú1_Readkey
                         //El else if significa que si es esa opcion que ejecute esa y ya no lea mas el if if if if hace que lea todas las opciones.
                         else
                         {
-                            int resto1 = (dia + numDias) % 7;
+                            int restoSemana = (dia + numDias) % 7;
 
-                            switch (resto1)
+                            switch (restoSemana)
                             {
                                 case 0:
                                     Console.WriteLine("Dentro de {0} dia/s será Domingo", numDias);
