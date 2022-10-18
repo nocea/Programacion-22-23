@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // La información general de un ensamblado se controla mediante el siguiente 
 // conjunto de atributos. Cambie estos valores de atributo para modificar la información
 // asociada a un ensamblado.
-[assembly: AssemblyTitle("14a_MenúOkBasico")]
+[assembly: AssemblyTitle("P14a_MenúOkBásico")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("14a_MenúOkBasico")]
+[assembly: AssemblyProduct("P14a_MenúOkBásico")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // El siguiente GUID sirve como id. de typelib si este proyecto se expone a COM.
-[assembly: Guid("fb95d262-535d-4bcb-9390-a16f9de46f0b")]
+[assembly: Guid("bcdcac0d-aa23-493b-8ae6-26461fde01a7")]
 
 // La información de versión de un ensamblado consta de los cuatro valores siguientes:
 //

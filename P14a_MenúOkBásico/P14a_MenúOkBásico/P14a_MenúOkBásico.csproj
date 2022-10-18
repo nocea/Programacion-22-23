@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FB95D262-535D-4BCB-9390-A16F9DE46F0B}</ProjectGuid>
+    <ProjectGuid>{BCDCAC0D-AA23-493B-8AE6-26461FDE01A7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_14a_MenúOkBasico</RootNamespace>
-    <AssemblyName>14a_MenúOkBasico</AssemblyName>
+    <RootNamespace>P14a_MenúOkBásico</RootNamespace>
+    <AssemblyName>P14a_MenúOkBásico</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
