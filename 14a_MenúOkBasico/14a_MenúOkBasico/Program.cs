@@ -49,7 +49,12 @@ namespace _14a_MenúOkBasico
                     area = PI * radio * radio;
                     Console.Write("\n\tLa longitud de la circunferencia es: {0}", perimetro);
                     Console.WriteLine("\n\tEl área de la circunferencia es: {0}", area);
+                        Console.WriteLine("Pulsa intro para volver al menú");
+                        Console.ReadLine();
+                        Console.Clear();
                     break;
+
+                        
                         
                 case 2:
                     Console.WriteLine("2: “Desglosa Euros”");
@@ -100,6 +105,9 @@ namespace _14a_MenúOkBasico
 
                         }
                     }
+                     Console.WriteLine("Pulsa intro para volver al menú");
+                        Console.ReadLine();
+                        Console.Clear();
                     break;
                 case 3:
                     Console.WriteLine("3: Presenta Fecha");
@@ -174,7 +182,9 @@ namespace _14a_MenúOkBasico
                         }
                     }
 
-
+                     Console.WriteLine("Pulsa intro para volver al menú");
+                        Console.ReadLine();
+                        Console.Clear();
                     break;
                     
                 case 4:Console.WriteLine("Presenta Día Semana");
@@ -218,8 +228,11 @@ namespace _14a_MenúOkBasico
                                     break;
                             }
                         }
-                    }
+                    } Console.WriteLine("Pulsa intro para volver al menú");
+                        Console.ReadLine();
+                        Console.Clear();
                     break;
+                        
                 } 
             }while(opcion!=0);
             Console.WriteLine("\t\tPulsa intro para salir");
