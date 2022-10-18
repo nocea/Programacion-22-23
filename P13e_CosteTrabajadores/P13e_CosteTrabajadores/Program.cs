@@ -44,7 +44,7 @@ namespace P13e_CosteTrabajadores
             Console.WriteLine("5        Oficinista            10           2");
             Console.WriteLine("\n\t\t¿Qué tipo de empleado necesita?");
 
-            //No se necesita hacer el convert.toin32 porque ya hace lo mismo.
+            //No se necesita hacer el convert.toint32 porque ya hace lo mismo.
 
             int opcion = Console.ReadKey(true).KeyChar - '0';
             if (opcion > 5 || opcion < 1)
