@@ -54,7 +54,7 @@ namespace P13e_CosteTrabajadores
 
                 Console.Write("\n\t\t¿Cuantos dias lo vas a necesitar?: ");
                 int dias = Convert.ToInt32(Console.ReadLine());
-                if (dias <= 0) Console.WriteLine("No puede ser menos de 1 dia");
+                if (dias < 0) Console.WriteLine("No puede ser menos de 1 dia");
                 else
                 {
                     switch (opcion)
