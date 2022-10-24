@@ -14,7 +14,9 @@ namespace P14e_MenuMultiplos
         {
             int opcion = -1;
             int num = 0;
+            
             int contador = 0;
+
             do
             {
                 
@@ -26,7 +28,7 @@ namespace P14e_MenuMultiplos
                 Console.WriteLine("\t\t\t║    1. Multiplos menores de 300     ║");
                 Console.WriteLine("\t\t\t║    2. Cien Primeros Multiplos      ║");
                 Console.WriteLine("\t\t\t║    3. Multiplos entre limites      ║");
-                Console.WriteLine("\t\t\t║    4. Multiplos desde              ║");
+                Console.WriteLine("\t\t\t║    4. Multiplos desde   700        ║");
                 Console.WriteLine("\t\t\t║                                    ║");
                 Console.WriteLine("\t\t\t║            0) Salir                ║");
                 Console.WriteLine("\t\t\t║                                    ║");
@@ -65,7 +67,7 @@ namespace P14e_MenuMultiplos
                         case 2:
                             Console.WriteLine("2. Cien Primeros Multiplos");
                             {
-                                int multiplo = 0;
+                                
                                 Console.Write("Introduce un numero entero:");
                                 num = Convert.ToInt32(Console.ReadLine());
                                 if (num < 10 || num > 99)
@@ -75,6 +77,7 @@ namespace P14e_MenuMultiplos
                                 }
                                 else
                                 {
+                                    int multiplo = 0;
                                     for (int i = 1; i <= 100; i++)
                                     {
                                         multiplo = i * num;
@@ -95,7 +98,8 @@ namespace P14e_MenuMultiplos
 
                                 }
                                 else
-                                { int multiplo = 0;
+                                {
+                                    int multiplo = 0;
                                     for (int i = 1;multiplo<=MAX; i++)
                                     { 
                                         multiplo = i * num;
@@ -107,9 +111,32 @@ namespace P14e_MenuMultiplos
                             
                             break;
                         case 4:
-                            Console.WriteLine(opcion);
+                            Console.WriteLine("4. Multiplos desde 700");
+                            {
+                                Console.Write("Introduce un numero entero de dos cifras: ");
+                                num = Convert.ToInt32(Console.ReadLine());
+                                if (num < 10 || num > 99)
+                                {
+                                    Console.WriteLine("Numero no valido");
+
+                                }
+                                else
+                                {
+                                    
+                                    for (int i = 1; contador < 80; i++)
+                                    {
+                                        int multiplo = 0;
+                                        multiplo = i * num;
+                                        if (multiplo > 700)
+                                        {
+                                            Console.Write("\t" + multiplo);
+                                            contador++;
+                                        }
+                                    }
+                                    Console.WriteLine();
+                                }  
+                            }
                             break;
-                            
                     }
                     if (opcion != 0)
                     {
@@ -118,26 +145,9 @@ namespace P14e_MenuMultiplos
 
                     }
                     Console.Clear();
-                }
-                    
-                
-                
+                }                                                 
                 
             } while (opcion != 0);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         }
     }
 }
