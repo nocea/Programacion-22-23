@@ -9,10 +9,10 @@ using System.Threading.Tasks;
 namespace P14c_AciertaNúmeroDeTres
 {
     internal class Program
-    { const int MIN=10, MAX=20;
+    { 
         static void Main(string[] args)
         {Random random=new Random();
-            int numeroRandom = random.Next(MIN, MAX+1);
+            int numeroRandom = random.Next(10, 20+1);
             //Prueba dev.
             Console.WriteLine("Prueba dev:"+numeroRandom);
             int numeroElegir=0;
@@ -24,7 +24,7 @@ namespace P14c_AciertaNúmeroDeTres
                 contador++;
                 Console.Write("{0}: ",contador);
                 numeroElegir=Convert.ToInt32(Console.ReadLine());
-                if (numeroElegir < MIN || numeroElegir > MAX) Console.WriteLine("Numero fuera de rango,intentalo otra vez");
+                if (numeroElegir < 10 || numeroElegir > 20) Console.WriteLine("Numero fuera de rango,intentalo otra vez");
                 else
                 {
                     if (numeroElegir < numeroRandom) Console.WriteLine("Te has quedado corto");
