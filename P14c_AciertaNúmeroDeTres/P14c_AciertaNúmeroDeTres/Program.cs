@@ -9,11 +9,12 @@ using System.Threading.Tasks;
 namespace P14c_AciertaNúmeroDeTres
 {
     internal class Program
-    {
+    { const int MIN=10, MAX=20;
         static void Main(string[] args)
         {Random random=new Random();
-            int numeroRandom = random.Next(10, 21);
-            Console.WriteLine(numeroRandom);
+            int numeroRandom = random.Next(MIN, MAX+1);
+            //Prueba dev.
+            Console.WriteLine("Prueba dev:"+numeroRandom);
             int numeroElegir=0;
             int contador=0;
             Console.WriteLine("Tienes tres oportunidades para acertar el numero: {10-20} ");
@@ -23,10 +24,15 @@ namespace P14c_AciertaNúmeroDeTres
                 contador++;
                 Console.Write("{0}: ",contador);
                 numeroElegir=Convert.ToInt32(Console.ReadLine());
-                if (numeroElegir < numeroRandom) Console.WriteLine("Te has quedado corto");
-                else if(numeroElegir>numeroRandom) Console.WriteLine("Te has pasado");
+                if (numeroElegir < MIN || numeroElegir > MAX) Console.WriteLine("Numero fuera de rango,intentalo otra vez");
+                else
+                {
+                    if (numeroElegir < numeroRandom) Console.WriteLine("Te has quedado corto");
+                        else if (numeroElegir > numeroRandom) Console.WriteLine("Te has pasado");                                   
+                }
             } while (contador != 3 && numeroElegir!=numeroRandom);
-            if (contador == 1) { puntos = 100; }
+            if (contador == 3 && numeroElegir != numeroRandom) { puntos = 0; }
+            else if (contador == 1) { puntos = 100; }
             else if (contador == 2) { puntos = 60; }
             else if (contador == 3) { puntos = 40; }
 
