@@ -15,7 +15,7 @@ namespace P14c_AciertaNúmeroDeTres
             int numeroRandom = random.Next(10, 20+1);
             //Prueba dev.
             Console.WriteLine("Prueba dev:"+numeroRandom);
-            int numeroElegir=0;
+            int numeroElegir=-1;
             int contador=0;
             Console.WriteLine("Tienes tres oportunidades para acertar el numero: {10-20} ");
             int puntos = 0;
@@ -24,7 +24,8 @@ namespace P14c_AciertaNúmeroDeTres
                 contador++;
                 Console.Write("{0}: ",contador);
                 numeroElegir=Convert.ToInt32(Console.ReadLine());
-                if (numeroElegir < 10 || numeroElegir > 20) Console.WriteLine("Numero fuera de rango,intentalo otra vez");
+                if ((numeroElegir < 10 || numeroElegir > 20)&&contador!=3) Console.WriteLine("Numero fuera de rango,intentalo otra vez");
+                else if (numeroElegir < 10 || numeroElegir > 20) Console.WriteLine("Numero fuera de rango");
                 else
                 {
                     if (numeroElegir < numeroRandom) Console.WriteLine("Te has quedado corto");
@@ -35,9 +36,10 @@ namespace P14c_AciertaNúmeroDeTres
             else if (contador == 1) { puntos = 100; }
             else if (contador == 2) { puntos = 60; }
             else if (contador == 3) { puntos = 40; }
-
-            if (contador == 3 && numeroElegir != numeroRandom) Console.WriteLine("Ha fallado el numero era {0}",numeroRandom);
-            else Console.WriteLine("Ha acertado,el numero era {0}",numeroRandom);
+            
+            if (contador == 3 && numeroElegir != numeroRandom) Console.Write("Ha fallado");
+            else Console.Write("Ha acertado");
+            Console.WriteLine(",el numero era {0}",numeroRandom);
             Console.WriteLine("Puntos: {0}",puntos);
             Console.WriteLine("Pulsa intro para salir");
             Console.ReadLine();
