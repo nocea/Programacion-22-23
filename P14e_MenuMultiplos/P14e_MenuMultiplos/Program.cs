@@ -43,6 +43,7 @@ namespace P14e_MenuMultiplos
                 }
                 else
                 {
+                    Console.Clear();
                     
                     switch (opcion)
                     {
