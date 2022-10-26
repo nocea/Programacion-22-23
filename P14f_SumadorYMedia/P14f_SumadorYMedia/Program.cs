@@ -11,19 +11,18 @@ namespace P14f_SumadorYMedia
         static void Main(string[] args)
         { 
             int suma = 0, num, contador = 0;
-            string captura;
-
-            Console.Write("\n\tDime sumando {0} (intro=salir): ", contador + 1);
-            captura = Console.ReadLine();
-            while (captura != "")
-            {
-                num = Convert.ToInt32(captura);
-                suma += num;   // <-- Acumulamos el número
-                contador++;    // <-- incrementamos el contador
-                               // y pedimos el siguiente
-                Console.Write("\n\tDime sumando {0} (intro=salir): ", contador + 1);
-                captura = Console.ReadLine();
+            bool ok=true;
+            
+            while (ok) {
+                Console.WriteLine("Dime un numero,intro para salir");
+                ok = Int32.TryParse(Console.ReadLine(), out num);
+                suma += num;
+                if (ok) { contador++; }
+               
+                Console.WriteLine(contador);
             }
+
+            
             double media = 1.0*suma / contador;
             Console.WriteLine("Suma: "+suma);
             Console.WriteLine("Media: "+media);
