@@ -20,12 +20,17 @@ namespace TryParse
                 //si no puede devuelve false y guarda un cero en la variable
 
                 //TODO ESTO CONTROLA EL ERROR DE FORMATO
+
                 ok = Int32.TryParse(Console.ReadLine(),out num);
-                if(!ok)//Es lo mismo que if(ok==false)
+                if (!ok)
+                {   //Es lo mismo que if(ok==false)
                     Console.WriteLine("Error de formato");
+                }
+
                 //TODO ESTO CONTROLA EL ERROR DE RANGO Y PONEMOS OK FALSO PARA FACILITAR EL WHILE
                 //ES DECIR SI ENTRA AQUI PONEMOS QUE OK SEA FALSO Y NO SE SALGA DEL BUCLE.
-                else if(num<min||num>max)
+
+                else if (num < min || num > max)
                 {
                     Console.WriteLine("Numero Fuera de rango");
                     ok = false;
