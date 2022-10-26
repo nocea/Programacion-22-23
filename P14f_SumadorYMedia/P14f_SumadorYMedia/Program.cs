@@ -22,7 +22,7 @@ namespace P14f_SumadorYMedia
                 Console.WriteLine(contador);
             }
 
-            
+           
             double media = 1.0*suma / contador;
             Console.WriteLine("Suma: "+suma);
             Console.WriteLine("Media: "+media);
