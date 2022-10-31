@@ -37,12 +37,12 @@ namespace P14i_MultiplicarSumando
                 {
                     for (int i = 0; i < a; i++)
                         solucion += b;
-                    Console.WriteLine(solucion);
+                    Console.WriteLine("Solucion: {0}", solucion);
                 }
                 else {
                     for (int i = 0; i < b; i++)
                         solucion += a;
-                    Console.WriteLine(solucion);
+                    Console.WriteLine("Solucion: {0}",solucion);
                 }
                 solucion = 0;
                 do
