@@ -1,4 +1,4 @@
-﻿//Alumno:Nocea Cabrera,Mario
+﻿//Alumno:Nocea Cabrera,Mario.
 using System;
 using System.Collections.Generic;
 using System.Linq;
