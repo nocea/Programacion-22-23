@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P14h_MultiplosEnColumnas", "P14h_MultiplosEnColumnas\P14h_MultiplosEnColumnas.csproj", "{A9E05C05-DBEB-4DA7-9C79-4FF92E9B5E17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9E05C05-DBEB-4DA7-9C79-4FF92E9B5E17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9E05C05-DBEB-4DA7-9C79-4FF92E9B5E17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9E05C05-DBEB-4DA7-9C79-4FF92E9B5E17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9E05C05-DBEB-4DA7-9C79-4FF92E9B5E17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC97972E-F2F9-413E-9A90-9E3BEC99E74C}
+	EndGlobalSection
+EndGlobal
