@@ -49,6 +49,7 @@ namespace P14j_CosteTrabajadoresV3
                                     euros = euros + (cantidad * 12 * dias * 8);
                                 }
                             }
+                            
                            
                         } while (!ok);
                         
