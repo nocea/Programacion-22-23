@@ -37,7 +37,7 @@ namespace P14f_SumadorYMedia
 
             } while (captura!="");//Se repite siempre que no sea vacio.
 
-            if (contador > 0)//control si el contador no se ha incrementado (si se ha introducido algun valor valido se hace la suma y media)
+            if (contador > 0)//control si el contador no se ha incrementado (si se ha introducido algun valor valido se hace la media)
             {
                 double media = 1.0 * suma / contador;
                 Console.WriteLine("Suma: " + suma);
