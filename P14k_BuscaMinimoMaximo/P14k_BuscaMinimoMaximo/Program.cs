@@ -21,7 +21,7 @@ namespace P14k_BuscaMinimoMaximo
             //Pongo el máximo como número mínimo para que todos los números que se generen después, si son más pequeños, se guarden.
             int numeroMinimo = limiteMaximo;
             Console.WriteLine("\t   -------Números elegidos-------");
-            //Bucle hasta 50
+            //Bucle hasta 50 
             for (int i = 0; i < 50; i++)
             {
                 numeroPresentar = rand.Next(limiteMinimo,limiteMaximo+1);
