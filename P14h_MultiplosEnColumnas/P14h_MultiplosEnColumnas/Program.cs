@@ -46,8 +46,11 @@ namespace P14h_MultiplosEnColumnas
                 if (!ok) Console.WriteLine("Error de formato");
                 else if (nc <3 || nc > 8) Console.WriteLine("Valor fuera de rango");
             } while (!ok || nc < 3 || nc > 8);
-            int multiplo = (min / num) * num;
-
+            Console.Clear();
+            Console.WriteLine("--PRESENTACION DE NUMEROS--");
+            //genero el primer multiplo
+            int multiplo = (min / num) * num;//esto o da min o da el multiplo inmediatamente menor a min
+            //Si el primer multiplo es menor que min le sumo un num mas
             if (multiplo < min)
                 multiplo += num;
             for (int i = 0; i < cant; i++)
