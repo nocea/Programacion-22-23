@@ -13,7 +13,7 @@ namespace P14i_MultiplicarSumando
         static void Main(string[] args)
         {
             bool ok;
-            int a, b,solucion=0;
+            int a, b,suma=0;
             char opcion;
             do
             {
@@ -33,18 +33,18 @@ namespace P14i_MultiplicarSumando
                     if (!ok) Console.WriteLine("Error de formato");
 
                 } while (!ok);
-                if (a > b)
+                if (a < b)
                 {
                     for (int i = 0; i < a; i++)
-                        solucion += b;
-                    Console.WriteLine("Solucion: {0}", solucion);
+                        suma += b;
+                    Console.WriteLine("Solucion: {0}", suma);
                 }
                 else {
                     for (int i = 0; i < b; i++)
-                        solucion += a;
-                    Console.WriteLine("Solucion: {0}",solucion);
+                        suma += a;
+                    Console.WriteLine("Solucion: {0}",suma);
                 }
-                solucion = 0;
+                suma = 0;
                 do
                 {
                     Console.WriteLine("Quiere hacer otra multipliacion[s=si-n=no]");
