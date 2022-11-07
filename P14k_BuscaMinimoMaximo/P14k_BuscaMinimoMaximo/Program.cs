@@ -1,9 +1,5 @@
 ﻿//Alumno:Nocea Cabrera,Mario
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace P14k_BuscaMinimoMaximo
 {
@@ -12,8 +8,8 @@ namespace P14k_BuscaMinimoMaximo
         const int COLUMNAS = 5;
         static void Main(string[] args)
         {
-            int limiteMinimo, limiteMaximo,contador=0;
-            int numeroPresentar, numeroMaximo = -1; 
+            int limiteMinimo, limiteMaximo, contador = 0;
+            int numeroPresentar, numeroMaximo = -1;
             Random rand = new Random();
             //Genero los límites
             limiteMaximo = rand.Next(300, 501);
@@ -24,12 +20,12 @@ namespace P14k_BuscaMinimoMaximo
             //Bucle hasta 50 
             for (int i = 0; i < 50; i++)
             {
-                numeroPresentar = rand.Next(limiteMinimo,limiteMaximo+1);
-                Console.Write("\t"+numeroPresentar);
+                numeroPresentar = rand.Next(limiteMinimo, limiteMaximo + 1);
+                Console.Write("\t" + numeroPresentar);
 
                 contador++;
                 //Control de columnas para presentación
-                if (contador % COLUMNAS == 0) 
+                if (contador % COLUMNAS == 0)
                 {
                     Console.WriteLine();
                 }
