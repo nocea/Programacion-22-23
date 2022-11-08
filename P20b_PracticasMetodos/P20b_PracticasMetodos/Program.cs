@@ -12,15 +12,16 @@ namespace P20b_PracticasMetodos
         {
             int entero1, entero2, entero3;
             double media;
-            Console.Write("Introduce el nombre de la variable: ");
-            string nombre = Console.ReadLine();
-            entero1 = Captura(nombre);
-            Console.Write("Introduce el nombre de la variable: ");
-            nombre = Console.ReadLine();
-            entero2 = Captura(nombre);
-            Console.Write("Introduce el nombre de la variable: ");
-            nombre = Console.ReadLine();
-            entero3 = Captura(nombre);
+            
+           
+            entero1 = Captura("a");
+            
+            
+            entero2 = Captura("b");
+          
+            
+            entero3 = Captura("c");
+
             media = MediaDeTres(entero1, entero2, entero3);
 
             //media = MediaDeTres(entero1, entero2, entero3);
