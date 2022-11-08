@@ -27,18 +27,12 @@ namespace P20d_FechaEnTexto
         static int Captura()
         {
             int numero;
-
-            
             numero = Convert.ToInt32(Console.ReadLine());
-
             return numero;
-
         }
-        static string FechaEnTexto(int dia, int mes, int año) {
+        static string FechaEnTexto(int dia, int mes, int año) 
+        {
             string fecha = dia + " del " + mes + " del " + año;
-
-
-
             return fecha;
         }
     }
