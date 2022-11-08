@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Métodos_entrenamiento_
+namespace P20a_PracticasMetodos
 {
     internal class Program
     {
@@ -12,7 +12,7 @@ namespace Métodos_entrenamiento_
         static void Main(string[] args)
         {
             int radio;
-            
+
 
             Console.Write("\n\tHola, introduce el radio de la circunferencia: ");
             radio = Convert.ToInt32(Console.ReadLine());
@@ -24,10 +24,11 @@ namespace Métodos_entrenamiento_
             Console.ReadLine();
         }
 
-        static double AreaCirculo(int radio) {
+        static double AreaCirculo(int radio)
+        {
 
             double area = PI * radio * radio;
-            
+
             Console.Write("\n\tEl área de la circunferencia es: {0}", area);
             return area;
         }
@@ -38,4 +39,4 @@ namespace Métodos_entrenamiento_
             return perimetro;
         }
     }
-}
+}s
