@@ -11,7 +11,7 @@ namespace P21a_CapturaEntero
         const int MIN = 100, MAX = 200;
         static void Main(string[] args)
         {
-            string txt = string.Format("Dime un numero entre[{0}...{1}]", MIN, MAX);
+            string txt = string.Format("Dime un numero entre[{0}...{1}]: ", MIN, MAX);
             CapturaEntero(txt,MIN,MAX);
             Console.WriteLine("Pulse intro para salir");
             Console.ReadLine();
@@ -24,8 +24,11 @@ namespace P21a_CapturaEntero
             {
                 Console.WriteLine(texto);
                 ok = Int32.TryParse(Console.ReadLine(), out numero);
+                Console.Clear();
                 if (!ok)
                     Console.WriteLine("**Error de Formato**");
+                else if (numero < min || numero > max)
+                    Console.WriteLine("**Error:Numero fuera de rango**");
             } while (!ok || numero < min || numero > max);
 
             return numero;
