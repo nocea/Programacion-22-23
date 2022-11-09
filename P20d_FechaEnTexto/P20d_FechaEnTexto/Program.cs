@@ -8,7 +8,15 @@ using System.Threading.Tasks;
 namespace P20d_FechaEnTexto
 {
     internal class Program
-    {
+    {/*PRONTUARIO
+      FORMA MAS EFICIENTE DE HACER UNA CADENA VACIA EN LIGAR DE PONER:
+        string fechatxt="";
+      SE PUDE PONER DE LA SIGUIENTE MANERA:
+        string fechatxt=string.empty
+        
+      Y fechatxt=String.Format( "{0} del {1} del {2}",dia,mes,anyo)
+        */
+
         static void Main(string[] args)
         { int mes, anyo, dia;
             Console.Write("Introduzca un año: ");
