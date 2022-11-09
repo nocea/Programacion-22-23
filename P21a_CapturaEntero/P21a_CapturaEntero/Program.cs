@@ -24,7 +24,7 @@ namespace P21a_CapturaEntero
             {
                 Console.WriteLine(texto);
                 ok = Int32.TryParse(Console.ReadLine(), out numero);
-                Console.Clear();
+                Console.Clear();    
                 if (!ok)
                     Console.WriteLine("**Error de Formato**");
                 else if (numero < min || numero > max)
