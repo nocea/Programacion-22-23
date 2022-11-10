@@ -30,7 +30,7 @@ namespace P21a_CapturaEntero
                 else if (numero < min || numero > max)
                     Console.WriteLine("**Error:Numero fuera de rango**");
             } while (!ok || numero < min || numero > max);
-
+            //comentario
             return numero;
         }
     }
