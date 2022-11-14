@@ -1,8 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
+using System.Net.Http.Headers;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace P21b_DiaDeLaSemanaMetodos
 {
@@ -10,52 +14,131 @@ namespace P21b_DiaDeLaSemanaMetodos
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Introduce un dia del 0 al 6 siendo 0 el domingo y 6 el sabado: ");
-            int dia = Convert.ToInt32(Console.ReadLine());
-            if (dia < 0 || dia > 6) Console.WriteLine("ERROR:El dia esta fuera de rango.");
-            else
-            {
-                Console.WriteLine("Introduce el numero de dias que quieres avanzar: ");
-                int numDias = Convert.ToInt32(Console.ReadLine());
-                if (numDias < 0) Console.WriteLine("Debe introducir un numero mayor que 0.");
-
-
-                //El else if significa que si es esa opcion que ejecute esa y ya no lea mas el if if if if hace que lea todas las opciones.
-                else
-                {
-                    int resto = (dia + numDias) % 7;
-
-                    MuestraDiaSemana(resto,numDias);
-                }
-            }
+            MuestraDiaSemana();
+            int dia = CapturaOpcion(0, 6);
+            //Registramos el dia de inicio
+            string nombreDiaSemana=NombreDiaSemana(dia);
+            //Entra si es correcto
+            Console.WriteLine("Hoy es {0}",nombreDiaSemana);
+            //Capturo el numero de  dias que puedo avanzar con CapturaEntero
+           
+            int numDias = CapturaEntero("Introduce el numero de dias que quieres avanzar: ");
+            //Guaroo el nombre final
+                string nombreFinal = ProximoDiaSemana(dia, numDias);
+            //Presento el resultado
+                Console.WriteLine("Hoy estamos a {0} y dentro de {1} dias sera {2}",nombreDiaSemana,numDias,nombreFinal);
+            
+            //salgo
             Console.WriteLine("Pulse intro para salir");
             Console.ReadLine();
         }
-        static void MuestraDiaSemana( int resto,int numDias) {
-            switch (resto)
+        static void MuestraDiaSemana()
+        {
+            
+            
+                
+                    Console.WriteLine("0)Domingo");
+                   
+                
+                    Console.WriteLine("1)Lunes" );
+                    
+               
+                    Console.WriteLine("2)Martes" );
+                    
+               
+                    Console.WriteLine("3)Miércoles" );
+                    
+                
+                    Console.WriteLine("4)Jueves" );
+                  
+                
+                    Console.WriteLine("5)Viernes");
+                    
+                
+                    Console.WriteLine("6)Sábado" );
+                    
+            
+        }
+        static int CapturaOpcion(int min, int max)
+        {
+
+            int numero;
+            
+            do
             {
-                case 0:
-                    Console.WriteLine("Dentro de {0} dia/s será Domingo", numDias);
-                    break;
+                Console.Write("Introduzca su opcion: ");
+                numero = Console.ReadKey().KeyChar - '0';
+                Console.Clear();
+                if (numero < min || numero > max)
+                {
+                    Console.WriteLine("**Error:Valor fuera de rango**");
+                }
+
+            } while (numero<min||numero>max);
+            //comentario
+            return numero;
+
+        }
+        static string NombreDiaSemana(int DiaSemana)
+        { string dia=String.Empty;
+            switch (DiaSemana)
+            {
+                case 0:dia = "Domingo";
+                        break;
                 case 1:
-                    Console.WriteLine("Dentro de {0} dia/s será Lunes", numDias);
+                    dia = "Lunes";
                     break;
                 case 2:
-                    Console.WriteLine("Dentro de {0} dia/s será Martes", numDias);
+                    dia = "Martes";
                     break;
                 case 3:
-                    Console.WriteLine("Dentro de {0} dia/s será Miércoles", numDias);
+                    dia = "Miercoles";
                     break;
                 case 4:
-                    Console.WriteLine("Dentro de {0} dia/s será Jueves", numDias);
+                    dia = "Jueves";
                     break;
                 case 5:
-                    Console.WriteLine("Dentro de {0} dia/s será Viernes", numDias);
+                    dia = "Viernes";
                     break;
                 case 6:
-                    Console.WriteLine("Dentro de {0} dia/s será Sábado", numDias);
+                    dia = "Sabado";
                     break;
+                
             }
+            return dia;
+        }
+        static string ProximoDiaSemana(int DiaSemana,int numDias)
+        {
+            string diaFinal = String.Empty;
+            
+
+            int resto = (DiaSemana + numDias) % 7;
+
+            diaFinal=NombreDiaSemana(resto);
+
+
+
+            return diaFinal;
+        }
+        static int CapturaEntero(string txt)
+        {
+            int numero;
+            bool ok;
+            do
+            {
+                Console.Write("{0}", txt);
+                ok = Int32.TryParse(Console.ReadLine(), out numero);
+                Console.Clear();
+                if (!ok)
+                    Console.WriteLine("**Error de Formato**");
+                else if (numero<=0)
+                {
+                    Console.WriteLine("**Error:Tienes que avanzar mas de 0 dias**");
+                    ok = false;
+                }
+            } while (!ok);
+            //comentario
+            return numero;
         }
     }
 }
