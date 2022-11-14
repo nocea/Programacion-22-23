@@ -24,12 +24,15 @@ namespace P21a_CapturaEntero
             {
                 Console.WriteLine(texto);
                 ok = Int32.TryParse(Console.ReadLine(), out numero);
-                Console.Clear();    
+                Console.Clear();
                 if (!ok)
                     Console.WriteLine("**Error de Formato**");
                 else if (numero < min || numero > max)
+                {
                     Console.WriteLine("**Error:Numero fuera de rango**");
-            } while (!ok || numero < min || numero > max);
+                    ok = false;
+                }
+            } while (!ok);
             //comentario
             return numero;
         }
