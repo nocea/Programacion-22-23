@@ -11,18 +11,18 @@ namespace P21a_CapturaEntero
         const int MIN = 100, MAX = 200;
         static void Main(string[] args)
         {
-            string txt = string.Format("Dime un numero entre[{0}...{1}]: ", MIN, MAX);
-            CapturaEntero(txt,MIN,MAX);
+            string texto="prueba";
+            CapturaEntero(texto,MIN,MAX);
             Console.WriteLine("Pulse intro para salir");
             Console.ReadLine();
         }
-        static int CapturaEntero(string texto,int min,int max)
+        static int CapturaEntero(string txt,int min,int max)
         {
             int numero;
             bool ok;
             do
             {
-                Console.WriteLine(texto);
+                Console.Write("{0} [{1}...{2}]: ",txt, min, max);
                 ok = Int32.TryParse(Console.ReadLine(), out numero);
                 Console.Clear();
                 if (!ok)
