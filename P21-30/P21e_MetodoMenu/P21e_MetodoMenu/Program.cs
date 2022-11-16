@@ -53,7 +53,7 @@ namespace P21e_MetodoMenu
             int opcion;
             do
             {
-                Console.Clear();
+                
                 Console.WriteLine("\n\n\n\n\t\t\t\t   Mario Nocea");
                 Console.WriteLine("\t\t\t╔════════════════════════════════════╗");
                 Console.WriteLine("\t\t\t║             MENU                   ║");
@@ -69,7 +69,8 @@ namespace P21e_MetodoMenu
                 Console.WriteLine("\t\t\t╚════════════════════════════════════╝");
                 Console.WriteLine("\t\t\t\tIntroduce una opción");
                 opcion = Console.ReadKey(true).KeyChar - '0';
-                
+                Console.Clear();
+
             } while (opcion < 0 || opcion > 4);
             return opcion;
 
