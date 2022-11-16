@@ -18,7 +18,7 @@ namespace P21e_MetodoMenu
                 opcion = MetodoMenu();
                 if (opcion != 0)
                 {
-                    num = CapturaEntero("Dime un numero de dos cifras: ", 10, 99);
+                    num = CapturaEntero("\nDime un numero de dos cifras: ", 10, 99);
                 }
 
                 switch (opcion)
@@ -44,8 +44,8 @@ namespace P21e_MetodoMenu
                 }
 
             }
-            Console.WriteLine("Gracias por usar el programa.");
-            Console.WriteLine("Pulse una tecla para salir");
+            Console.WriteLine("\nGracias por usar el programa.");
+            Console.WriteLine("\nPulse una tecla para salir");
             Console.ReadLine();
         }
         static int MetodoMenu()
@@ -111,11 +111,11 @@ namespace P21e_MetodoMenu
                 Console.Write("{0} [{1}..{2}]:", texto, min, max);
                 esCorrecto = Int32.TryParse(Console.ReadLine(), out valor);
                 if (!esCorrecto)
-                    Console.WriteLine("\n\n\t** Error: el valor introducido no es un número entero");
+                    Console.WriteLine("\n** Error: el valor introducido no es un número entero**");
                 else if (valor < min || valor > max)
                 {
                     esCorrecto = false;
-                    Console.WriteLine("\n\n\t** Error: el valor introducido no está dentro del rango");
+                    Console.WriteLine("\n** Error: el valor introducido no está dentro del rango**");
                 }
             } while (!esCorrecto);
             return valor;
