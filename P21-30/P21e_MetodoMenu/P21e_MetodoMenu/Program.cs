@@ -12,15 +12,18 @@ namespace P21e_MetodoMenu
         static void Main(string[] args)
         {
             int num = 0;
+            //la inicializo a -1 o a cualquier numero diferente de 0 para que entre en el bucle.
             int opcion = -1;
+            //Mientras que la opcion no sea 0 que se repita el bucle
             while (opcion != 0)
-            {
+            {   //Pido la opcion y la guardo
                 opcion = MetodoMenu();
+                //si es diferente a 0 pido el numero ya que se repite en todos los casos del switch.
                 if (opcion != 0)
                 {
                     num = CapturaEntero("\nDime un numero de dos cifras: ", 10, 99);
                 }
-
+                //Ejecuto el switch segun la opcion
                 switch (opcion)
                 {
                     case 1:
@@ -36,13 +39,14 @@ namespace P21e_MetodoMenu
                         NMultiplosDesde(num, 80, 700);                     
                         break;
                 }
+                //si es diferente a cero le presento una tecla para volver oara que no se borre todo y vuelva
                 if (opcion != 0)
                 {
                     Console.WriteLine("\nPulse intro para volver al menu");
                     Console.ReadLine();
                     Console.Clear();
                 }
-
+                //Si es cero sale del bucle y del programa
             }
             Console.WriteLine("\nGracias por usar el programa.");
             Console.WriteLine("\nPulse una tecla para salir");
@@ -68,10 +72,12 @@ namespace P21e_MetodoMenu
                 Console.WriteLine("\t\t\t║                                    ║");
                 Console.WriteLine("\t\t\t╚════════════════════════════════════╝");
                 Console.WriteLine("\t\t\t\tIntroduce una opción");
+                //esto hace que si pulso 0 por ejemplo ,como cero en el codigo ascci vale 48 y, le resto '0'=48 da 0 y asi con el 1 ,2...
                 opcion = Console.ReadKey(true).KeyChar - '0';
                 Console.Clear();
 
             } while (opcion < 0 || opcion > 4);
+            //devuelve la opcion para evaluar el switch
             return opcion;
 
         }
@@ -81,12 +87,13 @@ namespace P21e_MetodoMenu
             //--- Resuelto con while
             int mult = n; // <-- El primer múltiplo.
             int suma = 0; // <-- Importante la inicialización.
+            
             while (mult < limiteSup)  // Mientras el múltiplo sea menor del límite superior
             {
                 Console.Write("{0}\t", mult);
                 mult += n;// <-- Obtengo el siguiente 
                 suma += mult;                   // <-- Lo añadimos a la suma
-                                                // <-- Obtengo el siguiente
+                                                
             }
             Console.WriteLine("\nLa suma de los numeros multiplos de {0} menores de 300 es igual a {1}", n, suma);
 
@@ -179,5 +186,6 @@ namespace P21e_MetodoMenu
             }
         }
     }
+
     
 }
