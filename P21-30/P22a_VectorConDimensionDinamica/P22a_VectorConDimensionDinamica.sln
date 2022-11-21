@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P22a_VectorConDimensionDinamica", "P22a_VectorConDimensionDinamica\P22a_VectorConDimensionDinamica.csproj", "{BC500214-CC3F-416E-82A7-731D6481FED8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC500214-CC3F-416E-82A7-731D6481FED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC500214-CC3F-416E-82A7-731D6481FED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC500214-CC3F-416E-82A7-731D6481FED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC500214-CC3F-416E-82A7-731D6481FED8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6BCC6B4-CE57-416A-A809-EE9320E02812}
+	EndGlobalSection
+EndGlobal
