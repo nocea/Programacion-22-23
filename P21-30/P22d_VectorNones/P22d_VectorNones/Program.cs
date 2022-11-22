@@ -7,16 +7,53 @@ using System.Threading.Tasks;
 namespace P22d_VectorNones
 {
     internal class Program
-    {   static int[] vNones;
+    {  
         static void Main(string[] args)
         {
             
-            int tamaño = CapturaEntero("Introduce el tamaño de la tabla", 5, 100);
-
+            
+                int tamaño = CapturaEntero("Introduce el tamaño de la tabla", 5, 100);
+                int[] vNones = new int[tamaño];
+                CargaTablaNones(vNones);
+                int columnas = CapturaEntero("Introduce el numero de columnas para presentar la tabla", 1, 8);
+                MuestraTabla(columnas, vNones);
+                Console.WriteLine("\tPulse una tecla para salir");
+                Console.ReadKey();
             
             
         }
-        static CargaTablaNones() { 
+        static bool PreguntaSiNo(char sino)
+        {
+            bool vf = false;
+            if (sino == 's' || sino == 'S')
+                return true;
+            else if (sino == 'n' || sino == 'n')
+                return false;
+            else Console.WriteLine("Debe introducir una opcion correcta");
+            return vf;
+        }
+        static void CargaTablaNones(int[]array) {
+            
+            int impar = 1;
+            for (int i = 0; i<array.Length; i++) {
+                
+                array[i] = impar;
+                impar += 2;
+                
+
+            }
+
+        }
+        static void MuestraTabla(int columnas, int[]array)
+        {
+            for (int i = 0; i <array.Length; i++)
+            {
+                if (i % columnas == 0)
+                {
+                    Console.WriteLine(" ");
+                }
+                Console.Write("\t{0}) {1}\t", i, array[i]);
+            }
         }
         static int CapturaEntero(string txt, int min, int max)
         {
