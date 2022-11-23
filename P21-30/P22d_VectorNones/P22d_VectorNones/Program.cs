@@ -1,52 +1,80 @@
-﻿using System;
+//Alumno: Nocea Cabrera,Mario
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.ConstrainedExecution;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace P22d_VectorNones
 {
     internal class Program
-    {  
+    {
         static void Main(string[] args)
         {
-            
-            
+            bool repetir=false;
+            do
+            {
+                char a;
+                bool ok;
+                int columnas;
                 int tamaño = CapturaEntero("Introduce el tamaño de la tabla", 5, 100);
                 int[] vNones = new int[tamaño];
+                
                 CargaTablaNones(vNones);
-                int columnas = CapturaEntero("Introduce el numero de columnas para presentar la tabla", 1, 8);
+                columnas = CapturaEntero("Introduce el numero de columnas para presentar la tabla", 1, 8);
                 MuestraTabla(columnas, vNones);
-                Console.WriteLine("\tPulse una tecla para salir");
-                Console.ReadKey();
-            
-            
+                do
+                {
+                    Console.WriteLine("\nQuiere repetir el programa(s=si,n=no):");
+                    ok = Char.TryParse(Console.ReadLine(), out a);
+                    if (!ok)
+                    {
+                        Console.WriteLine("Error de formato");
+                    }
+                    if (a != 's' && a != 'S' && a != 'n' && a != 'N')
+                    {
+                        Console.WriteLine("Valor no valido");
+                        ok = false;
+                    }
+                } while (!ok);
+                repetir=PreguntaSiNo(a);
+                if (repetir)
+                    Console.Clear();
+            } while (repetir);
+
+            Console.WriteLine("\tPulse una tecla para salir");
+            Console.ReadKey();
+
+
         }
         static bool PreguntaSiNo(char sino)
         {
             bool vf = false;
             if (sino == 's' || sino == 'S')
-                return true;
-            else if (sino == 'n' || sino == 'n')
-                return false;
-            else Console.WriteLine("Debe introducir una opcion correcta");
+                vf = true;
+            else if(sino == 'n' || sino == 'n')
+                vf = false;
+            
             return vf;
         }
-        static void CargaTablaNones(int[]array) {
-            
+        static void CargaTablaNones(int[] array)
+        {
+
             int impar = 1;
-            for (int i = 0; i<array.Length; i++) {
-                
+            for (int i = 0; i < array.Length; i++)
+            {
+
                 array[i] = impar;
                 impar += 2;
-                
+
 
             }
 
         }
-        static void MuestraTabla(int columnas, int[]array)
+        static void MuestraTabla(int columnas, int[] array)
         {
-            for (int i = 0; i <array.Length; i++)
+            for (int i = 0; i < array.Length; i++)
             {
                 if (i % columnas == 0)
                 {
@@ -72,7 +100,7 @@ namespace P22d_VectorNones
                     ok = false;
                 }
             } while (!ok);
-            //comentario
+            
             return numero;
         }
     }
