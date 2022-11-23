@@ -1,62 +1,49 @@
-//Alumno: Nocea Cabrera,Mario
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.ConstrainedExecution;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace P22d_VectorNones
+namespace P22_vNones
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            bool repetir=false;
+            bool repetir;
+            int columnas;
             do
             {
-                char a;
-                bool ok;
-                int columnas;
+                Console.Clear();
                 int tamaño = CapturaEntero("Introduce el tamaño de la tabla", 5, 100);
                 int[] vNones = new int[tamaño];
-                
+
                 CargaTablaNones(vNones);
                 columnas = CapturaEntero("Introduce el numero de columnas para presentar la tabla", 1, 8);
                 MuestraTabla(columnas, vNones);
-                do
-                {
-                    Console.WriteLine("\nQuiere repetir el programa(s=si,n=no):");
-                    ok = Char.TryParse(Console.ReadLine(), out a);
-                    if (!ok)
-                    {
-                        Console.WriteLine("Error de formato");
-                    }
-                    if (a != 's' && a != 'S' && a != 'n' && a != 'N')
-                    {
-                        Console.WriteLine("Valor no valido");
-                        ok = false;
-                    }
-                } while (!ok);
-                repetir=PreguntaSiNo(a);
-                if (repetir)
-                    Console.Clear();
-            } while (repetir);
 
+                repetir = PreguntaSiNo("Quiere repetir?");
+            } while (repetir);
             Console.WriteLine("\tPulse una tecla para salir");
             Console.ReadKey();
-
-
         }
-        static bool PreguntaSiNo(char sino)
+        static bool PreguntaSiNo(string pregunta)
         {
-            bool vf = false;
-            if (sino == 's' || sino == 'S')
-                vf = true;
-            else if(sino == 'n' || sino == 'n')
-                vf = false;
-            
-            return vf;
+            char letra;
+            bool ok = false;
+
+            do
+            {
+
+                Console.Write(pregunta);
+                letra = Console.ReadKey().KeyChar;
+                if (letra == 's' || letra == 'S')
+                    ok = true;
+                else if (letra == 'n' || letra == 'N')
+                    ok = false;
+                Console.Clear();
+            } while (letra != 's' && letra != 'S' && letra != 'n' && letra != 'N');
+            return ok;
         }
         static void CargaTablaNones(int[] array)
         {
@@ -100,7 +87,7 @@ namespace P22d_VectorNones
                     ok = false;
                 }
             } while (!ok);
-            
+
             return numero;
         }
     }

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E9293A48-C57D-48BE-91C2-7F8A461A0275}</ProjectGuid>
+    <ProjectGuid>{61C619E3-99B1-4C07-B218-266085370E51}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>P22d_VectorNones</RootNamespace>
-    <AssemblyName>P22d_VectorNones</AssemblyName>
+    <RootNamespace>P22_vNones</RootNamespace>
+    <AssemblyName>P22_vNones</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

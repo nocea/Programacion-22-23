@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // La información general de un ensamblado se controla mediante el siguiente 
 // conjunto de atributos. Cambie estos valores de atributo para modificar la información
 // asociada a un ensamblado.
-[assembly: AssemblyTitle("P22d_VectorNones")]
+[assembly: AssemblyTitle("P22_vNones")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("P22d_VectorNones")]
+[assembly: AssemblyProduct("P22_vNones")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // El siguiente GUID sirve como id. de typelib si este proyecto se expone a COM.
-[assembly: Guid("e9293a48-c57d-48be-91c2-7f8a461a0275")]
+[assembly: Guid("61c619e3-99b1-4c07-b218-266085370e51")]
 
 // La información de versión de un ensamblado consta de los cuatro valores siguientes:
 //
