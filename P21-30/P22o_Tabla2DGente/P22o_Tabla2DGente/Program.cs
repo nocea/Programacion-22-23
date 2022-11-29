@@ -21,11 +21,24 @@ namespace P22o_Tabla2DGente
                 tabla2dGente[i, 0] = vNombres[i];
                 tabla2dGente[i, 1] = vApellidos[i];
             }
-            Pausa("Pulse para seguir");
+            for (int i = 0; i < vNombres.Length; i++)
+            {               //Presentar los numeros con un cero delante
+                    Console.WriteLine("{0}) {1},{2}", (i + 1).ToString("00"), tabla2dGente[i, 0], tabla2dGente[i, 1]);
+            }
+            Pausa("Pulse para el siguiente paso");
+            string[]vApellNomb=new string[vNombres.Length];
+            
+            for (int i = 0; i < vApellNomb.Length; i++)
+            { 
+                vApellNomb[i] = String.Format("{0}, {1}", tabla2dGente[i, 1], tabla2dGente[i, 0]);
+                Console.WriteLine("{0}) {1}", (i + 1).ToString("00"), vApellNomb[i]);
+            }
+            Pausa("Pulse para terminar");
         }
         static void Pausa(string texto) {
             Console.WriteLine(texto);
             Console.ReadKey();
+            Console.Clear();
         }
     }
 }
