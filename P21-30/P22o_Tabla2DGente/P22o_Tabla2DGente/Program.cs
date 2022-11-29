@@ -25,7 +25,7 @@ namespace P22o_Tabla2DGente
             {               //Presentar los numeros con un cero delante
                     Console.WriteLine("{0}) {1},{2}", (i + 1).ToString("00"), tabla2dGente[i, 0], tabla2dGente[i, 1]);
             }
-            Pausa("Pulse para el siguiente paso");
+            Pausa("el siguiente paso");
             string[]vApellNomb=new string[vNombres.Length];
             
             for (int i = 0; i < vApellNomb.Length; i++)
@@ -33,12 +33,22 @@ namespace P22o_Tabla2DGente
                 vApellNomb[i] = String.Format("{0}, {1}", tabla2dGente[i, 1], tabla2dGente[i, 0]);
                 Console.WriteLine("{0}) {1}", (i + 1).ToString("00"), vApellNomb[i]);
             }
-            Pausa("Pulse para terminar");
+            Pausa("Mostrar el nombre y apellido mas largo");
+            string masLargo=String.Empty;
+            for (int i = 0; i < vApellNomb.Length; i++)
+            {
+                if (vApellNomb[i].Length > masLargo.Length)
+                {
+                    masLargo= vApellNomb[i];
+                }
+            }
+            Console.WriteLine(masLargo);
+            Pausa("salir");
         }
-        static void Pausa(string texto) {
-            Console.WriteLine(texto);
-            Console.ReadKey();
-            Console.Clear();
+        static void Pausa(string texto)
+        {
+            Console.WriteLine("\nPulse una tecla para " + texto);
+            Console.ReadKey(true);
         }
     }
 }
