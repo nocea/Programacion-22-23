@@ -12,7 +12,7 @@ namespace Ficheros1
         static void Main(string[] args)
         {   //En lugar de poner la doble barra se puede poner @ antes para evitar los caracteres especiales 
             //Seria:@"C:\\Users\\Mario Nocea\\Desktop\\zDatosPrueba\\texto.txt"
-            StreamWriter sw = File.CreateText("C:\\Users\\Mario Nocea\\Desktop\\zDatosPrueba\\prueba.txt"); 
+            StreamWriter sw = File.CreateText("C:\\Users\\Mario Nocea\\source\\repos\\nocea\\c-\\zDatosPrueba\\cacatua.txt"); 
         }
     }
 }
