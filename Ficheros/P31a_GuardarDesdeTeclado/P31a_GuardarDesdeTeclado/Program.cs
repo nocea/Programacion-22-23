@@ -15,11 +15,12 @@ namespace P31a_GuardarDesdeTeclado
             string frase=String.Empty;
             do
             {
-                Console.WriteLine("Escribe lo que quieras incluir en el fichero[fin=salir]");
+                Console.Write("Escribe lo que quieras incluir en el fichero[fin=salir]: ");
                 frase = Console.ReadLine();
                 if (frase != "fin")
                 {
                     //Escribe la frase en el archivo
+                    sw.WriteLine(frase);
                 }
                 else
                 {
@@ -27,6 +28,8 @@ namespace P31a_GuardarDesdeTeclado
                 }
                 
             } while (frase != "fin");
+            //Hay que cerrarlo para que se escriba todo.    
+            sw.Close();
             Console.WriteLine("Pulsa una tecla para salir");
             Console.ReadKey();
         }
