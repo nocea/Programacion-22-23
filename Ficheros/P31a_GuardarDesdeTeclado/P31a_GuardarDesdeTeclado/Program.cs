@@ -11,21 +11,24 @@ namespace P31a_GuardarDesdeTeclado
     {
         static void Main(string[] args)
         {
-            StreamWriter sw = File.CreateText("C:\\Users\\Mario Nocea\\source\\repos\\nocea\\c-\\zDatosPrueba\\archivo.txt");
+            StreamWriter sw = File.CreateText("C:\\zDatosPrueba\\archivo.txt");
             string frase=String.Empty;
+            Console.Write("Escribe lo que quieras incluir en el fichero[fin=salir]: ");
+            int i=1;
             do
             {
-                Console.Write("Escribe lo que quieras incluir en el fichero[fin=salir]: ");
+                Console.Write("\nFrase "+i+": ");
                 frase = Console.ReadLine();
                 if (frase != "fin")
                 {
                     //Escribe la frase en el archivo
-                    sw.WriteLine(frase);
-                }
+                    sw.Write(frase+" ");
+                }   
                 else
                 {
                     Console.WriteLine("Se ha escrito todo en el fichero");
                 }
+                i++;
                 
             } while (frase != "fin");
             //Hay que cerrarlo para que se escriba todo.    
