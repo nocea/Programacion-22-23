@@ -1,0 +1,8 @@
+C:\Users\Mario Nocea\git\Programacion\P10-20\11a\11a\bin\Debug\11a.exe.config
+C:\Users\Mario Nocea\git\Programacion\P10-20\11a\11a\bin\Debug\11a.exe
+C:\Users\Mario Nocea\git\Programacion\P10-20\11a\11a\bin\Debug\11a.pdb
+C:\Users\Mario Nocea\git\Programacion\P10-20\11a\11a\obj\Debug\11a.csproj.AssemblyReference.cache
+C:\Users\Mario Nocea\git\Programacion\P10-20\11a\11a\obj\Debug\11a.csproj.SuggestedBindingRedirects.cache
+C:\Users\Mario Nocea\git\Programacion\P10-20\11a\11a\obj\Debug\11a.csproj.CoreCompileInputs.cache
+C:\Users\Mario Nocea\git\Programacion\P10-20\11a\11a\obj\Debug\11a.exe
+C:\Users\Mario Nocea\git\Programacion\P10-20\11a\11a\obj\Debug\11a.pdb

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P20b_PracticasMetodos", "P20b_PracticasMetodos\P20b_PracticasMetodos.csproj", "{D8B2F59D-6BF2-421C-895B-D0EFD4132ED9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8B2F59D-6BF2-421C-895B-D0EFD4132ED9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8B2F59D-6BF2-421C-895B-D0EFD4132ED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8B2F59D-6BF2-421C-895B-D0EFD4132ED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8B2F59D-6BF2-421C-895B-D0EFD4132ED9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1BAEE94-757D-4039-9EF9-DF7A4A7D0DFF}
+	EndGlobalSection
+EndGlobal
