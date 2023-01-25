@@ -1,10 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Ficheros\\P33b_LeerDatosTXTConSeparadores",
-    "\\Ficheros\\P33b_LeerDatosTXTConSeparadores\\LeerDatosEnTxtSeparadoresCampos",
-    "\\Ficheros\\P33b_LeerDatosTXTConSeparadores\\LeerDatosEnTxtSeparadoresCampos\\bin\\Debug\\Datos"
+    "\\3ªEva",
+    "\\3ªEva\\P33b_LeerDatosTXTConSeparadores\\LeerDatosEnTxtSeparadoresCampos",
+    "\\3ªEva\\P33b_LeerDatosTXTConSeparadores\\LeerDatosEnTxtSeparadoresCampos\\bin",
+    "\\3ªEva\\P33b_LeerDatosTXTConSeparadores\\LeerDatosEnTxtSeparadoresCampos\\bin\\Debug",
+    "\\3ªEva\\P33b_LeerDatosTXTConSeparadores\\LeerDatosEnTxtSeparadoresCampos\\bin\\Debug\\Datos"
   ],
-  "SelectedNode": "\\Ficheros",
+  "SelectedNode": "\\3ªEva",
   "PreviewInSolutionExplorer": false
 }

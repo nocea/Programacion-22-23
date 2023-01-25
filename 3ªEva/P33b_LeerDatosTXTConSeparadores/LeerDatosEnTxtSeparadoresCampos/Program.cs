@@ -57,8 +57,9 @@ namespace LeerDatosEnTxtSeparadoresCampos
             Console.WriteLine("     Id  Alumno\t\t\t\tProg    Ed      BD      Media");
             Console.WriteLine("     -----------------------------------------------------------------");
             for (int i = 0; i < listaAux.Count; i++)
-            {
+            {   //HAcemos la media de las tres notas para mostrarlas
                 media = Math.Round((tabNotas[i, 0] + tabNotas[i, 1] + tabNotas[i, 2]) / 3,1);
+                //Mostramos todo con cuadra texto.
                 Console.WriteLine("     {0} {1} {2}{3}{4}{5}", tabIds[i],CuadraTexto(tabAlums[i],30), CuadraTexto(tabNotas[i,0],8), CuadraTexto(tabNotas[i, 1],8), CuadraTexto(tabNotas[i, 2],8), media);
             }
             Console.WriteLine("\nPulsa cualquier tecla para salir");
@@ -75,7 +76,7 @@ namespace LeerDatosEnTxtSeparadoresCampos
         }
         static string CuadraTexto(float nota, int numeroCaracteres)
         {
-            //combierto la tabla nota de float a string
+            //convierto la tabla nota de float a string
             string notaString = nota.ToString();
             //Hago lo mismo que en el metodo anterior
             notaString+= "                   ";
