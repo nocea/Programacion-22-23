@@ -1,13 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Ficheros",
     "\\Ficheros\\P33b_LeerDatosTXTConSeparadores",
     "\\Ficheros\\P33b_LeerDatosTXTConSeparadores\\LeerDatosEnTxtSeparadoresCampos",
-    "\\Ficheros\\P33b_LeerDatosTXTConSeparadores\\LeerDatosEnTxtSeparadoresCampos\\bin",
-    "\\Ficheros\\P33b_LeerDatosTXTConSeparadores\\LeerDatosEnTxtSeparadoresCampos\\bin\\Debug",
     "\\Ficheros\\P33b_LeerDatosTXTConSeparadores\\LeerDatosEnTxtSeparadoresCampos\\bin\\Debug\\Datos"
   ],
-  "SelectedNode": "\\Ficheros\\P33b_LeerDatosTXTConSeparadores\\LeerDatosEnTxtSeparadoresCampos\\bin\\Debug\\Datos\\AlumNotas.TXT",
+  "SelectedNode": "\\Ficheros",
   "PreviewInSolutionExplorer": false
 }
