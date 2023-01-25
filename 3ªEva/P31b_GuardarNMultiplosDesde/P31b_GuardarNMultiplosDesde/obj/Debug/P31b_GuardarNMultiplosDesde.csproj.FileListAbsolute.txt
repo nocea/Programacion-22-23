@@ -1,0 +1,8 @@
+D:\GIT\Programacion\3ªEva\P31b_GuardarNMultiplosDesde\P31b_GuardarNMultiplosDesde\bin\Debug\P31b_GuardarNMultiplosDesde.exe.config
+D:\GIT\Programacion\3ªEva\P31b_GuardarNMultiplosDesde\P31b_GuardarNMultiplosDesde\bin\Debug\P31b_GuardarNMultiplosDesde.exe
+D:\GIT\Programacion\3ªEva\P31b_GuardarNMultiplosDesde\P31b_GuardarNMultiplosDesde\bin\Debug\P31b_GuardarNMultiplosDesde.pdb
+D:\GIT\Programacion\3ªEva\P31b_GuardarNMultiplosDesde\P31b_GuardarNMultiplosDesde\obj\Debug\P31b_GuardarNMultiplosDesde.csproj.AssemblyReference.cache
+D:\GIT\Programacion\3ªEva\P31b_GuardarNMultiplosDesde\P31b_GuardarNMultiplosDesde\obj\Debug\P31b_GuardarNMultiplosDesde.csproj.SuggestedBindingRedirects.cache
+D:\GIT\Programacion\3ªEva\P31b_GuardarNMultiplosDesde\P31b_GuardarNMultiplosDesde\obj\Debug\P31b_GuardarNMultiplosDesde.csproj.CoreCompileInputs.cache
+D:\GIT\Programacion\3ªEva\P31b_GuardarNMultiplosDesde\P31b_GuardarNMultiplosDesde\obj\Debug\P31b_GuardarNMultiplosDesde.exe
+D:\GIT\Programacion\3ªEva\P31b_GuardarNMultiplosDesde\P31b_GuardarNMultiplosDesde\obj\Debug\P31b_GuardarNMultiplosDesde.pdb
