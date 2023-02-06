@@ -2,11 +2,14 @@
   "ExpandedNodes": [
     "",
     "\\3ªEva",
+    "\\3ªEva\\P33b2_LeerDatosTXTConSeparadores",
+    "\\3ªEva\\P33b2_LeerDatosTXTConSeparadores\\LeerDatosEnTxtSeparadoresCampos",
+    "\\3ªEva\\P33b_LeerDatosTXTConSeparadores",
     "\\3ªEva\\P33b_LeerDatosTXTConSeparadores\\LeerDatosEnTxtSeparadoresCampos",
     "\\3ªEva\\P33b_LeerDatosTXTConSeparadores\\LeerDatosEnTxtSeparadoresCampos\\bin",
     "\\3ªEva\\P33b_LeerDatosTXTConSeparadores\\LeerDatosEnTxtSeparadoresCampos\\bin\\Debug",
     "\\3ªEva\\P33b_LeerDatosTXTConSeparadores\\LeerDatosEnTxtSeparadoresCampos\\bin\\Debug\\Datos"
   ],
-  "SelectedNode": "\\3ªEva",
+  "SelectedNode": "\\3ªEva\\P33b2_LeerDatosTXTConSeparadores\\LeerDatosEnTxtSeparadoresCampos\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
