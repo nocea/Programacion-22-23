@@ -2,11 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\3ªEva",
-    "\\3ªEva\\P31b_GuardarNMultiplosDesde",
-    "\\3ªEva\\P31b_GuardarNMultiplosDesde\\P31b_GuardarNMultiplosDesde",
-    "\\3ªEva\\P31b_GuardarNMultiplosDesde\\P31b_GuardarNMultiplosDesde\\bin",
-    "\\3ªEva\\P31b_GuardarNMultiplosDesde\\P31b_GuardarNMultiplosDesde\\bin\\Debug"
+    "\\3ªEva\\P33b_LeerDatosTXTConSeparadores\\LeerDatosEnTxtSeparadoresCampos",
+    "\\4ºEva"
   ],
-  "SelectedNode": "\\3ªEva\\P31b_GuardarNMultiplosDesde\\P31b_GuardarNMultiplosDesde\\Program.cs",
+  "SelectedNode": "\\3ªEva\\P33b_LeerDatosTXTConSeparadores",
   "PreviewInSolutionExplorer": false
 }

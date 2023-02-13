@@ -22,8 +22,6 @@ namespace LeerDatosEnTxtSeparadoresCampos
     {
         static void Main(string[] args)
         {
-
-
             StreamReader sr = File.OpenText(@".\Datos\AlumNotas.TXT");
             //Creo una lista auxiliar para guardar las filas de el archivo
             List<string> listaAux = new List<string>(); 
@@ -55,7 +53,7 @@ namespace LeerDatosEnTxtSeparadoresCampos
             //-------------- Mostramos los datos  -----------------
             double media;
             Console.WriteLine("     Id  Alumno\t\t\t\tProg    Ed      BD      Media");
-            Console.WriteLine("     -----------------------------------------------------------------");
+            Console.WriteLine("-----------------------------------------------------------------");
             for (int i = 0; i < listaAux.Count; i++)
             {   //HAcemos la media de las tres notas para mostrarlas
                 media = Math.Round((tabNotas[i, 0] + tabNotas[i, 1] + tabNotas[i, 2]) / 3,1);
@@ -64,7 +62,6 @@ namespace LeerDatosEnTxtSeparadoresCampos
             }
             Console.WriteLine("\nPulsa cualquier tecla para salir");
             Console.ReadKey();
-
         }
         static string CuadraTexto(string texto,int numeroCaracteres)
         {
