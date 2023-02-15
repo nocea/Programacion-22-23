@@ -1,6 +1,0 @@
-C:\Altair\_Trabajos csi_1 (Prog)\_PruebaCodigos\Ev3 Ficheros\P34a_LeerDatosEnTxtCamposDimensionados\LeerDatosEnTxtCamposDimensionados\bin\Release\LeerDatosEnTxtCamposDimensionados.exe.config
-C:\Altair\_Trabajos csi_1 (Prog)\_PruebaCodigos\Ev3 Ficheros\P34a_LeerDatosEnTxtCamposDimensionados\LeerDatosEnTxtCamposDimensionados\bin\Release\LeerDatosEnTxtCamposDimensionados.exe
-C:\Altair\_Trabajos csi_1 (Prog)\_PruebaCodigos\Ev3 Ficheros\P34a_LeerDatosEnTxtCamposDimensionados\LeerDatosEnTxtCamposDimensionados\bin\Release\LeerDatosEnTxtCamposDimensionados.pdb
-C:\Altair\_Trabajos csi_1 (Prog)\_PruebaCodigos\Ev3 Ficheros\P34a_LeerDatosEnTxtCamposDimensionados\LeerDatosEnTxtCamposDimensionados\obj\Release\LeerDatosEnTxtCamposDimensionados.exe
-C:\Altair\_Trabajos csi_1 (Prog)\_PruebaCodigos\Ev3 Ficheros\P34a_LeerDatosEnTxtCamposDimensionados\LeerDatosEnTxtCamposDimensionados\obj\Release\LeerDatosEnTxtCamposDimensionados.pdb
-C:\Altair\_Trabajos csi_1 (Prog)\_PruebaCodigos\Ev3 Ficheros\P34a_LeerDatosEnTxtCamposDimensionados\LeerDatosEnTxtCamposDimensionados\obj\Release\LeerDatosEnTxtCamposDimensionados.csprojResolveAssemblyReference.cache
