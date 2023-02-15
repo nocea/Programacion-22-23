@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P35b_CamposSeparadosADimensionados", "P35b_CamposSeparadosADimensionados\P35b_CamposSeparadosADimensionados.csproj", "{C66D101F-67C1-46CF-88D3-26B238E2042E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C66D101F-67C1-46CF-88D3-26B238E2042E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C66D101F-67C1-46CF-88D3-26B238E2042E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C66D101F-67C1-46CF-88D3-26B238E2042E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C66D101F-67C1-46CF-88D3-26B238E2042E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16DA8E1F-5489-421D-92F5-5A3700F0EFA3}
+	EndGlobalSection
+EndGlobal
