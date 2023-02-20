@@ -1,0 +1,15 @@
+C:\Users\Alberto\Desktop\PacientesOrdenados\PacientesOrdenados\bin\Debug\PacientesOrdenados.exe.config
+C:\Users\Alberto\Desktop\PacientesOrdenados\PacientesOrdenados\bin\Debug\PacientesOrdenados.exe
+C:\Users\Alberto\Desktop\PacientesOrdenados\PacientesOrdenados\bin\Debug\PacientesOrdenados.pdb
+C:\Users\Alberto\Desktop\PacientesOrdenados\PacientesOrdenados\obj\Debug\PacientesOrdenados.csprojAssemblyReference.cache
+C:\Users\Alberto\Desktop\PacientesOrdenados\PacientesOrdenados\obj\Debug\PacientesOrdenados.csproj.CoreCompileInputs.cache
+C:\Users\Alberto\Desktop\PacientesOrdenados\PacientesOrdenados\obj\Debug\PacientesOrdenados.exe
+C:\Users\Alberto\Desktop\PacientesOrdenados\PacientesOrdenados\obj\Debug\PacientesOrdenados.pdb
+C:\Users\Mario Nocea\git\Programacion\3ªEva\P38_Pacientes\PacientesOrdenados\bin\Debug\PacientesOrdenados.exe.config
+C:\Users\Mario Nocea\git\Programacion\3ªEva\P38_Pacientes\PacientesOrdenados\bin\Debug\PacientesOrdenados.exe
+C:\Users\Mario Nocea\git\Programacion\3ªEva\P38_Pacientes\PacientesOrdenados\bin\Debug\PacientesOrdenados.pdb
+C:\Users\Mario Nocea\git\Programacion\3ªEva\P38_Pacientes\PacientesOrdenados\obj\Debug\PacientesOrdenados.csproj.AssemblyReference.cache
+C:\Users\Mario Nocea\git\Programacion\3ªEva\P38_Pacientes\PacientesOrdenados\obj\Debug\PacientesOrdenados.csproj.SuggestedBindingRedirects.cache
+C:\Users\Mario Nocea\git\Programacion\3ªEva\P38_Pacientes\PacientesOrdenados\obj\Debug\PacientesOrdenados.csproj.CoreCompileInputs.cache
+C:\Users\Mario Nocea\git\Programacion\3ªEva\P38_Pacientes\PacientesOrdenados\obj\Debug\PacientesOrdenados.exe
+C:\Users\Mario Nocea\git\Programacion\3ªEva\P38_Pacientes\PacientesOrdenados\obj\Debug\PacientesOrdenados.pdb

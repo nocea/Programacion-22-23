@@ -1,7 +1,19 @@
 {
   "ExpandedNodes": [
     "",
-    "\\3ªEva"
+    "\\3ªEva",
+    "\\3ªEva\\P36_Peliculas",
+    "\\3ªEva\\P36_Peliculas\\P36_Peliculas",
+    "\\3ªEva\\P37a_FusiónDirectaDeFicheros",
+    "\\3ªEva\\P37a_FusiónDirectaDeFicheros\\P37a_FusiónDirectaDeFicheros",
+    "\\3ªEva\\P37_FusionDirectaDeFicherosMario",
+    "\\3ªEva\\P37_FusionDirectaDeFicherosMario\\P37_FusionDirectaDeFicherosMario",
+    "\\3ªEva\\P38_Pacientes",
+    "\\3ªEva\\P38_Pacientes\\PacientesOrdenados",
+    "\\3ªEva\\P38_Pacientes\\PacientesOrdenados\\bin",
+    "\\3ªEva\\P38_Pacientes\\PacientesOrdenados\\bin\\Debug",
+    "\\3ªEva\\P38_Pacientes\\PacientesOrdenados\\bin\\Debug\\Datos"
   ],
+  "SelectedNode": "\\3ªEva\\P38_Pacientes\\PacientesOrdenados\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
