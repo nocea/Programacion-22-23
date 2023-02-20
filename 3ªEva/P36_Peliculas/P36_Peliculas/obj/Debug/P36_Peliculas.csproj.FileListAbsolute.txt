@@ -1,0 +1,8 @@
+C:\Users\Mario Nocea\git\Programacion\3ªEva\P36_Peliculas\P36_Peliculas\bin\Debug\P36_Peliculas.exe.config
+C:\Users\Mario Nocea\git\Programacion\3ªEva\P36_Peliculas\P36_Peliculas\bin\Debug\P36_Peliculas.exe
+C:\Users\Mario Nocea\git\Programacion\3ªEva\P36_Peliculas\P36_Peliculas\bin\Debug\P36_Peliculas.pdb
+C:\Users\Mario Nocea\git\Programacion\3ªEva\P36_Peliculas\P36_Peliculas\obj\Debug\P36_Peliculas.csproj.AssemblyReference.cache
+C:\Users\Mario Nocea\git\Programacion\3ªEva\P36_Peliculas\P36_Peliculas\obj\Debug\P36_Peliculas.csproj.SuggestedBindingRedirects.cache
+C:\Users\Mario Nocea\git\Programacion\3ªEva\P36_Peliculas\P36_Peliculas\obj\Debug\P36_Peliculas.csproj.CoreCompileInputs.cache
+C:\Users\Mario Nocea\git\Programacion\3ªEva\P36_Peliculas\P36_Peliculas\obj\Debug\P36_Peliculas.exe
+C:\Users\Mario Nocea\git\Programacion\3ªEva\P36_Peliculas\P36_Peliculas\obj\Debug\P36_Peliculas.pdb
