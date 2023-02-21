@@ -29,6 +29,7 @@ namespace LeerDatosEnTxtSeparadoresCampos
             //Mientras haya filas se guardan las filas en la lista.
             string[] vectorCampos;
             float media;
+            
             Console.WriteLine("     Id  Alumno\t\t\t\tProg    Ed      BD      Media");
             Console.WriteLine("     -----------------------------------------------------------------");
             while (!sr.EndOfStream)

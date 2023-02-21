@@ -14,7 +14,8 @@ class Program
 		List<string> listaOrdenada;
 
 		// el StreamReader para leer los datos
-		StreamReader sr = new StreamReader(@".\Datos\Pacientes.txt", Encoding.Default);
+		StreamReader sr =  File.OpenText(@".\Datos\Pacientes.txt", Encoding.Default);
+		
 		
 		//Para mostrar antes de la cabecera cómo se están mostrando los datos
 		string[] nombreCamposOrdenacion = { " ", "por orden de id", "por orden de Apellidos, Nombre", "por orden de Edad", "por orden de altura", "por orden de peso", "Sin ordenar" };
@@ -79,18 +80,19 @@ class Program
 			Console.WriteLine("\n  Id  Paciente                     Movil      Fecha Nac.  Alt.  Peso");
 			Console.WriteLine("  --- ---------------------------- ---------  ----------  ---- -----");
 
-			double peso, sumaPeso = 0;
-			int cont = 0;
+			double sumaPeso = 0;
+			
 			string fechaSP;
 			// necesitamos el vector de campos
 
 			for (int i = 0; i < listaOrdenada.Count; i++)
 			{
 				vCampos = listaOrdenada[i].Split(';');
-				Console.WriteLine("{1}{2}{3}{4}{5}{6}",vCampos[1],vCampos[2],vCampos[3],vCampos[4],vCampos[5],vCampos[6]);
+				sumaPeso += Convert.ToDouble(vCampos[6]);
+				Console.WriteLine("{0}  {1}  {2}  {3}  {4}  {5}",vCampos[1],CuadraTexto(vCampos[2],30),vCampos[3],vCampos[4],vCampos[5],vCampos[6]);
 			}
 
-			Console.Write("\n\n\t*** El peso medio de todos los pacientes es {0} kg ***", (sumaPeso / cont).ToString("0.0"));
+			Console.Write("\n\n\t*** El peso medio de todos los pacientes es {0} kg ***" ,Math.Round((sumaPeso/listaOrdenada.Count),2).ToString("0.0"));
 			Console.WriteLine("\n\n\t Pulsa una tecla para volver al menú");
 			Console.ReadKey();
 			opcion = Menu();
