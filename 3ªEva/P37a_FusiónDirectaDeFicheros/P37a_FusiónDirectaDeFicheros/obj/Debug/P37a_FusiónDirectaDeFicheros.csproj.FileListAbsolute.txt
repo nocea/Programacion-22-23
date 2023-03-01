@@ -1,0 +1,8 @@
+C:\Users\Mario Nocea\git\Programacion\3ªEva\P37a_FusiónDirectaDeFicheros\P37a_FusiónDirectaDeFicheros\bin\Debug\P37a_FusiónDirectaDeFicheros.exe.config
+C:\Users\Mario Nocea\git\Programacion\3ªEva\P37a_FusiónDirectaDeFicheros\P37a_FusiónDirectaDeFicheros\bin\Debug\P37a_FusiónDirectaDeFicheros.exe
+C:\Users\Mario Nocea\git\Programacion\3ªEva\P37a_FusiónDirectaDeFicheros\P37a_FusiónDirectaDeFicheros\bin\Debug\P37a_FusiónDirectaDeFicheros.pdb
+C:\Users\Mario Nocea\git\Programacion\3ªEva\P37a_FusiónDirectaDeFicheros\P37a_FusiónDirectaDeFicheros\obj\Debug\P37a_FusiónDirectaDeFicheros.csproj.AssemblyReference.cache
+C:\Users\Mario Nocea\git\Programacion\3ªEva\P37a_FusiónDirectaDeFicheros\P37a_FusiónDirectaDeFicheros\obj\Debug\P37a_FusiónDirectaDeFicheros.csproj.SuggestedBindingRedirects.cache
+C:\Users\Mario Nocea\git\Programacion\3ªEva\P37a_FusiónDirectaDeFicheros\P37a_FusiónDirectaDeFicheros\obj\Debug\P37a_FusiónDirectaDeFicheros.csproj.CoreCompileInputs.cache
+C:\Users\Mario Nocea\git\Programacion\3ªEva\P37a_FusiónDirectaDeFicheros\P37a_FusiónDirectaDeFicheros\obj\Debug\P37a_FusiónDirectaDeFicheros.exe
+C:\Users\Mario Nocea\git\Programacion\3ªEva\P37a_FusiónDirectaDeFicheros\P37a_FusiónDirectaDeFicheros\obj\Debug\P37a_FusiónDirectaDeFicheros.pdb
