@@ -11,7 +11,7 @@ namespace P40_ClasePersona
         static void Main(string[] args)
         {
             Persona p1 = new Persona("Mario","Nocea",1,2,3);
-
+            p1.Mostrar();
             Console.WriteLine();
             Console.ReadKey();
         }

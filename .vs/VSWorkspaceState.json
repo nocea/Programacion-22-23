@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\4ºEva",
+    "\\4ºEva\\P40_ClasePersona",
+    "\\4ºEva\\P40_ClasePersona\\P40_ClasePersona"
   ],
-  "SelectedNode": "\\P40_ClasePersona.sln",
+  "SelectedNode": "\\4ºEva\\P40_ClasePersona\\P40_ClasePersona\\Persona.cs",
   "PreviewInSolutionExplorer": false
 }

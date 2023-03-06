@@ -9,7 +9,7 @@ namespace P40_ClasePersona
     internal class Persona
     {
         //Atributos
-        public string nombre,apellidos;
+        private string nombre,apellidos;
         private int año, mes, dia;
         //Get and Set
         public string Nombre 
@@ -21,7 +21,8 @@ namespace P40_ClasePersona
         public int Año { get => año; set => año = value; }
         public int Mes { get => mes; set => mes = value; }
         public int Dia { get => dia; set => dia = value; }
-
+       
+        
         //Propiedad Edad
         public int Edad
         {
@@ -34,12 +35,9 @@ namespace P40_ClasePersona
                 int fechaNacimiento = mes * 100 + dia;
                 int fechaHoy = mesHoy * 100 + diaHoy;
                 if (fechaHoy < fechaNacimiento)
-                {
-                    edad = añoHoy - año - 1;
-                }
+                    edad = añoHoy - año - 1;               
                 else
                     edad = añoHoy - año;
-
                 return edad;
             }
             
@@ -65,7 +63,9 @@ namespace P40_ClasePersona
         {
 
         }
-
-        
+        public void Mostrar()
+        {
+            Console.WriteLine("{0},{1},Nacimiento:{2}/{3}/{4}",nombre,apellidos,dia,mes,año);
+        }
     }
 }

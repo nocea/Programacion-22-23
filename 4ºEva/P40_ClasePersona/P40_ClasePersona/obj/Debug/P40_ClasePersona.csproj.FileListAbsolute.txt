@@ -1,0 +1,8 @@
+C:\Users\Mario Nocea\git\Programacion\4ºEva\P40_ClasePersona\P40_ClasePersona\bin\Debug\P40_ClasePersona.exe.config
+C:\Users\Mario Nocea\git\Programacion\4ºEva\P40_ClasePersona\P40_ClasePersona\bin\Debug\P40_ClasePersona.exe
+C:\Users\Mario Nocea\git\Programacion\4ºEva\P40_ClasePersona\P40_ClasePersona\bin\Debug\P40_ClasePersona.pdb
+C:\Users\Mario Nocea\git\Programacion\4ºEva\P40_ClasePersona\P40_ClasePersona\obj\Debug\P40_ClasePersona.csproj.AssemblyReference.cache
+C:\Users\Mario Nocea\git\Programacion\4ºEva\P40_ClasePersona\P40_ClasePersona\obj\Debug\P40_ClasePersona.csproj.SuggestedBindingRedirects.cache
+C:\Users\Mario Nocea\git\Programacion\4ºEva\P40_ClasePersona\P40_ClasePersona\obj\Debug\P40_ClasePersona.csproj.CoreCompileInputs.cache
+C:\Users\Mario Nocea\git\Programacion\4ºEva\P40_ClasePersona\P40_ClasePersona\obj\Debug\P40_ClasePersona.exe
+C:\Users\Mario Nocea\git\Programacion\4ºEva\P40_ClasePersona\P40_ClasePersona\obj\Debug\P40_ClasePersona.pdb
